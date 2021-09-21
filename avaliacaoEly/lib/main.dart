@@ -154,7 +154,7 @@ Widget latestAlbuns() {
       ),
       Row(
         children: [
-          miniAbum("images/SM.png", "Sorriso Maroto"),
+          miniAbum("images/SM.jpg", "Sorriso Maroto"),
           miniAbum("images/WS.jpg", "Wesley Safadão")
         ],
       ),
@@ -188,7 +188,7 @@ Widget novoAlbum() {
 
 Widget artista() {
   return ClipRRect(
-      child: Image(image: AssetImage("images/pericao.png"), width: 60),
+      child: Image(image: AssetImage("images/pericao.jpg"), width: 60),
       borderRadius: BorderRadius.only(
           bottomLeft: Radius.circular(100),
           topLeft: Radius.circular(100),
